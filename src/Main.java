@@ -9,6 +9,8 @@ public class Main {
         System.out.println("ФИО сотрудника — " + fullName);
         /// Задание 2
         System.out.println("Задание 2");
+        String fullNameOne = fullName.toUpperCase();
+        System.out.println("Данные ФИО сотрудника для заполнения отчета —" + fullNameOne );
 
     }
 }
